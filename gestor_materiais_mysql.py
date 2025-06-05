@@ -5,7 +5,7 @@ try:
     conn = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="root",  # altere aqui sua senha
+        password="500195",  # altere aqui sua senha
         database="escola_materiais"
     )
     cursor = conn.cursor()
