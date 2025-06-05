@@ -1,86 +1,57 @@
-.top-bar {
-    display: flex;
-    align-items: center;
-    padding: 20px 30px;
-    background-color: #1879f7;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-}
-
-.logo {
-    height: 50px;
-}
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f6f9;
-    margin: 0;
+    background-color: #f2f2f2;
     padding: 20px;
+    color: #333;
 }
 
-h1, h2 {
+h1 {
     text-align: center;
-    color: #333;
+    color: #2c3e50;
+}
+
+button {
+    background-color: #4a60c5;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #e0f804;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
     background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-table th, table td {
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
     padding: 12px;
-    border: 1px solid #ddd;
-    text-align: center;
-}
-
-table th {
-    background-color: #4CAF50;
-    color: white;
-}
-
-a {
-    text-decoration: none;
-    color: #4CAF50;
-    font-weight: bold;
-    margin: 0 5px;
-}
-
-a:hover {
-    color: #388E3C;
+    text-align: left;
 }
 
 form {
-    max-width: 500px;
-    margin: 30px auto;
+    margin: 0 auto;    
+    background-color: #fff;
     padding: 20px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-input[type="text"],
-input[type="number"],
-textarea {
-    width: 100%;
-    padding: 8px;
-    margin: 8px 0 16px;
-    border: 1px solid #ccc;
     border-radius: 4px;
+    width: 400px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-button {
+input[type="text"] {
     width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #45a049;
 }

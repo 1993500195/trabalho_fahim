@@ -1,0 +1,58 @@
+========================================================================================================
+# Git
+========================================================================================================
+
+
+1 - Instale o git através do link https://git-scm.com/downloads
+
+
+2 - Verificar versão:
+
+	git --version
+
+3 - Inicializa um repositório local:
+
+	git init
+
+4 - Adicionar arquivos ao stage:
+
+	git add *** ou git add .
+
+5 - Salvar alterações:
+
+	git commit -m "mensagem"
+
+6 - Conectando o repositório local ao remoto (GitHub):
+
+	git remote add origin URL
+
+7 - Enviar alterações para o GitHub:
+	
+	git push -u origin ***
+
+
+
+========================================================================================================
+# Alterar senha do Workbench
+========================================================================================================
+
+1 - Abra o MySQL 8.0 Command Line Client;
+
+
+2 - Execute o comando:
+
+	set password for root@localhost='***';
+
+3 - Feche o MySQL 8.0 Command Line Client;
+
+
+4 - Abra o Workbench e digite a nova senha.
+
+
+========================================================================================================
+# Legendas
+========================================================================================================
+
+''  - utilizado nos comandos
+""  - utilizado para comentários
+*** - nome ou senha do arquivo 
